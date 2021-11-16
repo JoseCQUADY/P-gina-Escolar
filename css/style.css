@@ -214,43 +214,6 @@ features
 {
     padding-right: 0px !important;
 }
-
-
-.contenedor{
-    width: 100%;
-    display:inline-block;
-    background-color: red;
-    text-align: center;
-}
-
-.contenedor div{
-    background-color: blue;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-
-.lider-xd figure{
-    margin:0;
-    padding:0;
-    position:relative;
-    cursor:pointer;
-}
-.lider-xd figure img{
-    display: block;
-    position: relative;
-    
-}
-.lider-xd figure figcaption {
-    display:block;
-    position:absolute;
-    z-index:5;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box
-}
-
 .nosotros-item
 {
     position:relative;
@@ -302,7 +265,7 @@ features
     width:100%;
     height:100%;
     padding: 30px 10px;
-    background-color:#F4F3F3;
+    background-color:white;
     backface-visibility:hidden;
     -webkit-transform:rotateY(-180deg);
     -moz-transform:rotateY(-180deg);

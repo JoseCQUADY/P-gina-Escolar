@@ -75,6 +75,7 @@
       <input type="submit">
      </div>
      </section>
+     <br><br><br>
     <!---->
     <!----> 
     <section id="ayuda" class="wow fadeInUp delay-05s">
@@ -84,15 +85,17 @@
             <div class="testimonial-item">
               <ul class="bxslider">
                 <li>
-                 
-                  
-                    <p>¿No sabes de donde sacar tu dirección MAC?</p>
-                 
-                  
+                  <blockquote>
+                    <small> <b>¿No sabes dónde obtener tu dirección MAC?</b></small>
+                    <br><br><br><br>
+                    <p>
+                      <I>Desplázate con los botones de abajo</I>
+                    </p>
+                  </blockquote>
                 </li>
                 <li>
                   <blockquote>
-                    <small>Dirección MAC en Windows</small>
+                    <small><b>Dirección MAC en Windows</b></small>
                     <p>
                       1. Pulse la combinación de teclas "<I>Windows + R</I> "
                       <br>
@@ -106,7 +109,7 @@
                 </li>
                 <li>
                   <blockquote>
-                    <small>Dirección MAC en Mac (Apple)</small>
+                    <small><b>Dirección MAC en Mac (Apple)</b></small>
                     <p>
                       1. Abrir el panel de preferencias de red
                       <br>
@@ -118,7 +121,7 @@
                 </li>
                 <li>
                   <blockquote>
-                    <small>Dirección MAC en Linux</small>
+                    <small><b>Dirección MAC en Linux</b></small>
                     <p>
                       1. Entrar a la consola del sistema
                       <br>
@@ -174,7 +177,7 @@ function formatMAC(e) {
   e.target.value = str.slice(0, 17);
 };
 
-macAddress.on("keyup", formatMAC);
+  macAddress.on("keyup", formatMAC);
 
 
 
@@ -182,6 +185,7 @@ macAddress.on("keyup", formatMAC);
 
 
   }
+
 
 
 

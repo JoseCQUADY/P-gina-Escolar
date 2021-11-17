@@ -251,7 +251,7 @@ Parallax
 ************************************
 ***********************************/
 .parallax1{	
-	background-image: url(../img/parallax.jpg);
+	background-image: url(../img/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     display:block;
@@ -260,7 +260,7 @@ Parallax
 }
 
 .parallax1:after {	
-	background-image: url(data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+	background-image: url(data:image/jpeg;base64);
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -278,7 +278,7 @@ Parallax
 	font-weight: 700;
 }
 .highlight-dark {
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	padding: 20px;
 	display: inline-block;
 	color: #fff;

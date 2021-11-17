@@ -575,6 +575,7 @@ contact
 #footer
 {
     padding: 20px 0px;
+    background-color: brown;
 }
 .scrollToTop {
     position: fixed;

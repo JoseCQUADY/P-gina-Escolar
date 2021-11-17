@@ -328,9 +328,10 @@ features
 .contenedor{
 margin: 0 auto;
 width: 100%;
+background-color: white;
 }
 .contenedor h1{
-    font-size: 20px;
+    font-size: 25px;
 }
 /***********************************
 ************************************

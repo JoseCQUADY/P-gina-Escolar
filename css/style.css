@@ -328,6 +328,7 @@ features
 .contenedor{
 margin: 0 auto;
 background-color: red;
+width: 100%;
 }
 /***********************************
 ************************************

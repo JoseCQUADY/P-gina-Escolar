@@ -182,7 +182,7 @@ Content c = Request.Get("https://api.amazon.com/auth/o2/tokeninfo?access_token="
 
 Map m = new ObjectMapper().readValue(c.toString(), new TypeReference>(){});
 
-if (!"YOUR-CLIENT-ID".equals(m.get("aud"))) {
+if (!"amzn1.application-oa2-client.6a0f56640b804aaab2c800fd81313905".equals(m.get("aud"))) {
 // the access token does not belong to us
 throw new RuntimeException("Invalid token");
 }

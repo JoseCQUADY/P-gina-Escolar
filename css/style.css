@@ -180,8 +180,9 @@ features
 .title, .service-title
 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 35px;
+    font-size: 50px;
     text-transform: uppercase;
+    color:#4e4c4c
 }
 .sub-title
 {
@@ -194,7 +195,7 @@ features
 .sec-sub-title {
     font-size: 16px;
     font-weight: bold;
-    color: #002F2F;
+    color: #020000;
     text-transform: uppercase;
     margin: 25px 0px;
     line-height: 1.7;
@@ -274,12 +275,12 @@ Parallax
 	color: #fff;
 }
 .big-heading {
-	font-size: 48px;
+	font-size: 60px;
 	font-weight: 700;
 }
 .highlight-dark {
-	background-color: rgba(0, 0, 0, 0.5);
-	padding: 20px;
+	background-color: #fff(0, 0, 0, 0.5);
+	padding: 100px;
 	display: inline-block;
 	color: #fff;
 }

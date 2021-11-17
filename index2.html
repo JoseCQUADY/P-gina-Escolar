@@ -53,6 +53,7 @@
             <div class="row">
               <div class="banner-info text-center wow fadeIn delay-05s">
                 <h1 class="bnr-title">Alexa Skill Wake on Lan</h1>
+                <a class="btn btn-lg btn-primary" id="Logout" onclick="logout()">Logout</a>
               
 
                   </div>
@@ -177,9 +178,15 @@ function formatMAC(e) {
 macAddress.on("keyup", formatMAC);
 
   }
+  </script>
 
+  <script type="text/javascript">
+  
+function logout() {
+     amazon.Login.logout();
+        window.location.replace("/index.html");
 
-
+  };
 
   </script>
 </body>

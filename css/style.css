@@ -252,6 +252,7 @@ Parallax
 ***********************************/
 #parallax1{	
 	background-image: url(../img/parallax.jpg);
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
     display:block;

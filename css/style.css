@@ -250,7 +250,7 @@ features
 Parallax
 ************************************
 ***********************************/
-#parallax1{	
+.parallax1{	
 	background-image: url(../img/1.jpg);
     background-size: auto;
     background-position: center;
@@ -260,7 +260,7 @@ Parallax
     z-index:120; 
 }
 
-#parallax1:after {	
+.parallax1:after {	
 	background-image: url(data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
 	content: "";
 	position: absolute;

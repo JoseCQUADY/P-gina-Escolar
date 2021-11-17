@@ -330,9 +330,9 @@ features
 TESTIMONIAL
 ************************************
 ***********************************/
-#testimonial
+#ayuda
 {
-    background: url('../img/alexa3.jpg') no-repeat;
+    background: url('../img/alexa.jpg') no-repeat;
     background-size: cover;
     min-height: 390px;
 }

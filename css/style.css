@@ -245,7 +245,11 @@ features
     -moz-box-sizing:border-box;
     box-sizing:border-box
 }
-
+/***********************************
+************************************
+Parallax
+************************************
+***********************************/
 #parallax1{	
 	background-image: url(../img/parallax.jpg);
     background-position: center;
@@ -266,9 +270,27 @@ features
 	opacity: 0.9;
 	z-index: -1;
 }
-
-
-
+.home-section {
+    padding-top: 150px;
+    padding-bottom: 110px;
+	display:block;
+    position:relative;
+    z-index:120;
+}
+.text-light {
+	color: #fff;
+}
+.big-heading {
+	font-size: 48px;
+	font-weight: 700;
+}
+.highlight-dark {
+	background-color: rgba(0,0,0,.5);
+	padding: 20px;
+	display: inline-block;
+	color: #fff;
+}
+/***********************************/
 .nosotros-item
 {
     position:relative;

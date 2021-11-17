@@ -172,8 +172,6 @@ h1.bnr-title
     margin-top: 50px;
 }
 
-
-
 /***********************************
 ************************************
 features
@@ -247,6 +245,29 @@ features
     -moz-box-sizing:border-box;
     box-sizing:border-box
 }
+
+#parallax1{	
+	background-image: url(../img/parallax/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display:block;
+    position:relative;
+    z-index:120; 
+}
+
+#parallax1:after {	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 0.9;
+	z-index: -1;
+}
+
+
 
 .nosotros-item
 {

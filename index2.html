@@ -53,7 +53,7 @@
             <div class="row">
               <div class="banner-info text-center wow fadeIn delay-05s">
                 <h1 class="bnr-title">Alexa Skill Wake on Lan</h1>
-                <a class="btn btn-lg btn-primary" id="Logout" onclick="logout()">Logout</a>
+                <a class="btn btn-lg btn-primary" id="Logout">Logout</a>
               
 
                   </div>
@@ -183,11 +183,10 @@ function formatMAC(e) {
   }
   </script>
 
-<script type="text/javascript">
- function logout() {
+ <script type="text/javascript">
+  document.getElementById('Logout').onclick = function() {
      amazon.Login.logout();
-        window.location.replace("https://ouroboroswol.tk/");
-
+     window.location.replace("https://ouroboroswol.tk/");
   };
 </script>
 </body>

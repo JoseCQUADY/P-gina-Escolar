@@ -17,8 +17,6 @@
 </head>
 
 <body>
-  
-  <div id="amazon-root">
   <script type="text/javascript">
  
      window.onAmazonLoginReady = function() {
@@ -30,9 +28,7 @@
        a.src = 'https://assets.loginwithamazon.com/sdk/na/login1.js';
        d.getElementById('amazon-root').appendChild(a);
      })(document);
- 
  </script>
-
 <script type="text/javascript">
   document.getElementById('LoginWithAmazon').onclick = function() {
       options = {}
@@ -46,7 +42,7 @@
   };
 </script>
 
-
+<div id="amazon-root">
   <div class="loader"></div>
   <div id="myDiv">
     <!--HEADER-->
@@ -285,7 +281,6 @@
   <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
-
 </div>
 </body>
 </html>

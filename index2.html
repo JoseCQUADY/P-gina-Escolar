@@ -53,7 +53,7 @@
             <div class="row">
               <div class="banner-info text-center wow fadeIn delay-05s">
                 <h1 class="bnr-title">Alexa Skill Wake on Lan</h1>
-                <a class="btn btn-lg btn-primary" id="Logout" onclick="logout()">Logout</a>
+                <a class="btn btn-lg btn-primary" id="logout" >Logout</a>
               
 
                   </div>
@@ -183,14 +183,10 @@ function formatMAC(e) {
   }
   </script>
 
-  <script type="text/javascript">
-  
-function logout() {
+<script type="text/javascript">
+  document.getElementById('logout').onclick = function() {
      amazon.Login.logout();
-        window.location.replace("/index.html");
-
   };
-
-  </script>
+</script>
 </body>
 </html>

@@ -258,6 +258,7 @@ Parallax
     display:block;
     position:relative;
     z-index:120; 
+    padding-bottom: 50px;
 }
 
 #parallax1:after {	

@@ -17,6 +17,24 @@
 </head>
 
 <body>
+  
+  <div id="amazon-root"></div>
+  <script type="text/javascript">
+ 
+     window.onAmazonLoginReady = function() {
+       amazon.Login.setClientId('amzn1.application-oa2-client.6a0f56640b804aaab2c800fd81313905');
+     };
+     (function(d) {
+       var a = d.createElement('script'); a.type = 'text/javascript';
+       a.async = true; a.id = 'amazon-login-sdk';
+       a.src = 'https://assets.loginwithamazon.com/sdk/na/login1.js';
+       d.getElementById('amazon-root').appendChild(a);
+     })(document);
+ 
+ </script>
+
+
+
   <div class="loader"></div>
   <div id="myDiv">
     <!--HEADER-->
@@ -50,17 +68,11 @@
             <div class="row">
               <div class="banner-info text-center wow fadeIn delay-05s">
                 <h1 class="bnr-title">Alexa Skill Wake on Lan</h1>
-<<<<<<< HEAD
                   <a href id="LoginWithAmazon">
                     <img border ="0" alt="Login with Amazon"
                         src="https://images-na.ssl-images-amazon.com/images/G/01/lwa/btnLWA_gold_156x32.png"
                         width="156" height="32" />
                    </a>
-=======
-                <div class="amazonbtn">
-              <img alt = "Iniciar sesión con Amazon" src = "https://images-na.ssl-images-amazon.com/images/G/01/lwa/btnLWA_gold_156x32.png" width=156  height =32 />
-                </div>
->>>>>>> 08391282d52673547b2ad5ad2d354d8f196180b3
               </div>
             </div>
           </div>

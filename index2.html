@@ -18,7 +18,20 @@
 </head>
 
 <body>
-  
+    <div id="amazon-root"></div>
+    <script type="text/javascript">
+   
+       window.onAmazonLoginReady = function() {
+         amazon.Login.setClientId('amzn1.application-oa2-client.6a0f56640b804aaab2c800fd81313905');
+       };
+       (function(d) {
+         var a = d.createElement('script'); a.type = 'text/javascript';
+         a.async = true; a.id = 'amazon-login-sdk';
+         a.src = 'https://assets.loginwithamazon.com/sdk/na/login1.js';
+         d.getElementById('amazon-root').appendChild(a);
+       })(document);
+   
+   </script>
   <div class="loader"></div>
   <div id="myDiv">
     <!--HEADER-->
@@ -43,6 +56,7 @@
                   <li class=""><a href="#ayuda">Ayuda</a></li>
                   <li class=""><a target="_blank" href="aviso_privacidad.html">Aviso de privacidad</a></li>
                   <li class=""><a id="Logout" href="" >Cerrar Sesión</a></li>
+                  
                   <script type="text/javascript">
                     document.getElementById('Logout').onclick function() { 
                        amazon.Login.logout();

@@ -184,6 +184,11 @@ features
     text-transform: upperc-lase;
     color:#4e4c4c
 }
+
+.raya{
+    border-color: cadetblue;
+    border:5px;
+}
 .sub-title
 {
     font-size: 20px;

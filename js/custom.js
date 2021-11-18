@@ -42,10 +42,3 @@
         }
     });
     
-    // Testimonials Slider
-    $('.bxslider').bxSlider({
-      adaptiveHeight: true,
-      mode: 'fade'
-    });
-    
-})(jQuery);

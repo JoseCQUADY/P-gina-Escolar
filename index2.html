@@ -182,22 +182,7 @@
   <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
- <script type="text/javascript">
-var access_token = encodeURI(url.searchParams.get("access_token"));
-function getlist(access_token){
- $.get("https://k5yzaevsmg.execute-api.eu-west-1.amazonaws.com/prod/devicelist?access_token=" +  access_token, function(data){
-console.log("test");
-})
-  .done(function(data) {
-    refresh_list(data);
-    console.log(data);
-  }).fail(function() {
 
-   window.location.replace("/index.html");
- });
-
-
- </script>
   
   
 </body>

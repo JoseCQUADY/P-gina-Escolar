@@ -181,6 +181,19 @@
   <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
+  <script type="text/javascript">
+var access_token = 'Atza|EKdsnskdna…';
+
+amazon.Login.retrieveProfile(access_token, function(response) {
+  if ( response.success ) {
+     alert('Hello, ' + response.profile.Name);
+     alert('Your e-mail address is ' + response.profile.PrimaryEmail);
+     alert('Your unique ID is ' + response.profile.CustomerId);
+  }
+  else {
+     alert('Oh no! An error happened: ' + response.error);
+  }
+  </script>
   
   
 </body>

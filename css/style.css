@@ -180,8 +180,9 @@ features
 .title, .service-title
 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 35px;
+    font-size: 50px;
     text-transform: uppercase;
+    color:#4e4c4c
 }
 .sub-title
 {
@@ -194,7 +195,7 @@ features
 .sec-sub-title {
     font-size: 16px;
     font-weight: bold;
-    color: #002F2F;
+    color: #020000;
     text-transform: uppercase;
     margin: 25px 0px;
     line-height: 1.7;
@@ -251,7 +252,7 @@ Parallax
 ************************************
 ***********************************/
 .parallax1{	
-	background-image: url(../img/parallax.jpg);
+	background-image: url(../img/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     display:block;
@@ -260,7 +261,7 @@ Parallax
 }
 
 .parallax1:after {	
-	background-image: url(data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+	background-image: url(data:image/jpeg;base64);
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -274,12 +275,12 @@ Parallax
 	color: #fff;
 }
 .big-heading {
-	font-size: 48px;
+	font-size: 60px;
 	font-weight: 700;
 }
 .highlight-dark {
-	background-color: rgba(0,0,0,.5);
-	padding: 20px;
+	background-color: #fff(0, 0, 0, 0.5);
+	padding: 100px;
 	display: inline-block;
 	color: #fff;
 }
@@ -401,7 +402,7 @@ padding-top: 30px;
     border: 0;
 }
 .testimonial-item ul li  small {
-    font-size: 16px;
+    font-size: 23px;
     color: #fff;
     font-weight: 400;
     text-shadow: 1px 1px 2px #333;
@@ -430,7 +431,7 @@ padding-top: 30px;
 }
 .testimonial-item ul li blockquote::after {
     content: '”';
-    right: 30px;
+    right: 40px;
 }
 /***********************************
 ************************************
